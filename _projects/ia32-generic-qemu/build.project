@@ -12,7 +12,7 @@
 #
 # Ports configuration - additional to the one from _targets
 #
-export PORTS_MBEDTLS=y
+export PORTS_MBEDTLS=n
 export PORTS_AZURE_SDK=n # FIXME: requires port to macos
 
 

@@ -4,5 +4,7 @@ export HOME=/root
 W /bin/bind devfs /dev
 X /bin/posixsrv
 X /sbin/lwip rtl:0x18:11
+X /sbin/ifconfig en1 10.0.2.15
+X /usr/sbin/telnetd
 T /dev/console
 X /bin/psh

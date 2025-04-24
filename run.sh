@@ -1,0 +1,2 @@
+#!/bin/bash
+qemu-system-i386 -cpu pentium3 -smp 1 -serial stdio -display curses -drive file=~/phoenix-rtos-project/_boot/ia32-generic-qemu/phoenix.disk,format=raw -netdev user,id=net0,hostfwd=tcp::5556-:23 -device rtl8139,netdev=net0
