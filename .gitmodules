@@ -1,11 +1,11 @@
 [submodule "phoenix-rtos-kernel"]
 	path = phoenix-rtos-kernel
-	url = https://github.com/phoenix-rtos/phoenix-rtos-kernel.git
-	branch = release/3.1
+	url = git@github.com:dwypych/phoenix-rtos-kernel.git
+	branch = david-wypych
 [submodule "libphoenix"]
 	path = libphoenix
-	url = https://github.com/phoenix-rtos/libphoenix
-	branch = release/3.1
+	url = git@github.com:dwypych/libphoenix.git
+	branch = david-wypych
 [submodule "phoenix-rtos-build"]
 	path = phoenix-rtos-build
 	url = https://github.com/phoenix-rtos/phoenix-rtos-build
@@ -28,8 +28,8 @@
 	branch = release/3.1
 [submodule "phoenix-rtos-lwip"]
 	path = phoenix-rtos-lwip
-	url = https://github.com/phoenix-rtos/phoenix-rtos-lwip
-	branch = release/3.1
+	url = git@github.com:dwypych/phoenix-rtos-lwip.git
+	branch = david-wypych
 [submodule "phoenix-rtos-posixsrv"]
 	path = phoenix-rtos-posixsrv
 	url = https://github.com/phoenix-rtos/phoenix-rtos-posixsrv
