@@ -1,6 +1,6 @@
-.gitignore
 _fs/*
 _build/*
+/build/
 _boot/*
 .DS_Store
 .vscode/*
