@@ -75,7 +75,7 @@ static ssize_t server_handleWrite(oid_t *oid, const void *data, size_t len, stru
 	printf("Write to oid %u:%u of %zu bytes\r\n", (unsigned)oid->port, (unsigned)oid->id, len);
 	/* Print out received data. */
 	print_data( "  Write: data", data, len);
-	size_t rotValue = 1;
+	size_t rotValue = 2;
 	const unsigned char minChar = '#';
 	const unsigned char maxChar = '~';
 	rotValue %= (maxChar - minChar + 1);
